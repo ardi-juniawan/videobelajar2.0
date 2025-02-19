@@ -11,7 +11,7 @@ export default function Header(){
         <>
             <div className="header">
                 <div className="logo">
-                    <img src="/src/assets/img/logo.png" alt="videobelajar" />
+                    <img src="img/logo.png" alt="videobelajar" />
                 </div>
                 {!hideKategori && <KategoriHeader />}
             </div>

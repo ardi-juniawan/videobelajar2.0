@@ -2,7 +2,7 @@ export default function KategoriHeader(){
     return(
         <>
             <div className="menu">
-                <img src="src/assets/img/hamburger.png" className="mobile-menu" />
+                <img src="img/hamburger.png" className="mobile-menu" />
                 <nav className="dropdown-kategori">
                     <span>Kategori</span>
                     <div className="dropdown-content">
@@ -20,7 +20,7 @@ export default function KategoriHeader(){
                     </div>
                 </nav>
                 <div className="avatar">
-                    <img src="src/assets/img/Avatar.png" alt="" />
+                    <img src="img/Avatar.png" alt="" />
                 </div>
             </div>
         </>

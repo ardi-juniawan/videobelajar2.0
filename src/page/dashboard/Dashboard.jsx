@@ -51,7 +51,7 @@ export default function Dashboard(){
                     <div className="card">
                     <div className="card-wrapper">
                         <div className="card-image">
-                        <img src="src/assets/img/card1.jpg" alt="" />
+                        <img src="img/card1.jpg" alt="" />
                         </div>
                         <div className="card-title">
                         <p>Big 4 Auditor Financial Analyst</p>
@@ -61,7 +61,7 @@ export default function Dashboard(){
                         </span>
                         </div>
                         <div className="card-profile">
-                        <img src="src/assets/img/card1-avatar.png" alt="" />
+                        <img src="img/card1-avatar.png" alt="" />
                         <p>
                             <span className="name-card-profile">Jenna Ortega</span>
                             <span className="caption-card-profile">
@@ -90,7 +90,7 @@ export default function Dashboard(){
                     <div className="card">
                     <div className="card-wrapper">
                         <div className="card-image">
-                        <img src="src/assets/img/card2.jpg" alt="" />
+                        <img src="img/card2.jpg" alt="" />
                         </div>
                         <div className="card-title">
                         <p>Big 4 Auditor Financial Analyst</p>
@@ -100,7 +100,7 @@ export default function Dashboard(){
                         </span>
                         </div>
                         <div className="card-profile">
-                        <img src="src/assets/img/card2-avatar.png" alt="" />
+                        <img src="img/card2-avatar.png" alt="" />
                         <p>
                             <span className="name-card-profile">Jenna Ortega</span>
                             <span className="caption-card-profile">
@@ -129,7 +129,7 @@ export default function Dashboard(){
                     <div className="card">
                     <div className="card-wrapper">
                         <div className="card-image">
-                        <img src="src/assets/img/card3.jpg" alt="" />
+                        <img src="img/card3.jpg" alt="" />
                         </div>
                         <div className="card-title">
                         <p>Big 4 Auditor Financial Analyst</p>
@@ -139,7 +139,7 @@ export default function Dashboard(){
                         </span>
                         </div>
                         <div className="card-profile">
-                        <img src="src/assets/img/card3-avatar.png" alt="" />
+                        <img src="img/card3-avatar.png" alt="" />
                         <p>
                             <span className="name-card-profile">Jenna Ortega</span>
                             <span className="caption-card-profile">
@@ -168,7 +168,7 @@ export default function Dashboard(){
                     <div className="card">
                     <div className="card-wrapper">
                         <div className="card-image">
-                        <img src="src/assets/img/card4.jpg" alt="" />
+                        <img src="img/card4.jpg" alt="" />
                         </div>
                         <div className="card-title">
                         <p>Big 4 Auditor Financial Analyst</p>
@@ -178,7 +178,7 @@ export default function Dashboard(){
                         </span>
                         </div>
                         <div className="card-profile">
-                        <img src="src/assets/img/card4-avatar.png" alt="" />
+                        <img src="img/card4-avatar.png" alt="" />
                         <p>
                             <span className="name-card-profile">Jenna Ortega</span>
                             <span className="caption-card-profile">
@@ -207,7 +207,7 @@ export default function Dashboard(){
                     <div className="card">
                     <div className="card-wrapper">
                         <div className="card-image">
-                        <img src="src/assets/img/card5.jpg" alt="" />
+                        <img src="img/card5.jpg" alt="" />
                         </div>
                         <div className="card-title">
                         <p>Big 4 Auditor Financial Analyst</p>
@@ -217,7 +217,7 @@ export default function Dashboard(){
                         </span>
                         </div>
                         <div className="card-profile">
-                        <img src="src/assets/img/card5-avatar.png" alt="" />
+                        <img src="img/card5-avatar.png" alt="" />
                         <p>
                             <span className="name-card-profile">Jenna Ortega</span>
                             <span className="caption-card-profile">
@@ -246,7 +246,7 @@ export default function Dashboard(){
                     <div className="card">
                     <div className="card-wrapper">
                         <div className="card-image">
-                        <img src="src/assets/img/card6.jpg" alt="" />
+                        <img src="img/card6.jpg" alt="" />
                         </div>
                         <div className="card-title">
                         <p>Big 4 Auditor Financial Analyst</p>
@@ -256,7 +256,7 @@ export default function Dashboard(){
                         </span>
                         </div>
                         <div className="card-profile">
-                        <img src="src/assets/img/card6-avatar.png" alt="" />
+                        <img src="img/card6-avatar.png" alt="" />
                         <p>
                             <span className="name-card-profile">Jenna Ortega</span>
                             <span className="caption-card-profile">
@@ -285,7 +285,7 @@ export default function Dashboard(){
                     <div className="card">
                     <div className="card-wrapper">
                         <div className="card-image">
-                        <img src="src/assets/img/card7.jpg" alt="" />
+                        <img src="img/card7.jpg" alt="" />
                         </div>
                         <div className="card-title">
                         <p>Big 4 Auditor Financial Analyst</p>
@@ -295,7 +295,7 @@ export default function Dashboard(){
                         </span>
                         </div>
                         <div className="card-profile">
-                        <img src="src/assets/img/card7-avatar.png" alt="" />
+                        <img src="img/card7-avatar.png" alt="" />
                         <p>
                             <span className="name-card-profile">Jenna Ortega</span>
                             <span className="caption-card-profile">
@@ -324,7 +324,7 @@ export default function Dashboard(){
                     <div className="card">
                     <div className="card-wrapper">
                         <div className="card-image">
-                        <img src="src/assets/img/card8.jpg" alt="" />
+                        <img src="img/card8.jpg" alt="" />
                         </div>
                         <div className="card-title">
                         <p>Big 4 Auditor Financial Analyst</p>
@@ -334,7 +334,7 @@ export default function Dashboard(){
                         </span>
                         </div>
                         <div className="card-profile">
-                        <img src="src/assets/img/card8-avatar.png" alt="" />
+                        <img src="img/card8-avatar.png" alt="" />
                         <p>
                             <span className="name-card-profile">Jenna Ortega</span>
                             <span className="caption-card-profile">
@@ -363,7 +363,7 @@ export default function Dashboard(){
                     <div className="card">
                     <div className="card-wrapper">
                         <div className="card-image">
-                        <img src="src/assets/img/card9.jpg" alt="" />
+                        <img src="img/card9.jpg" alt="" />
                         </div>
                         <div className="card-title">
                         <p>Big 4 Auditor Financial Analyst</p>
@@ -373,7 +373,7 @@ export default function Dashboard(){
                         </span>
                         </div>
                         <div className="card-profile">
-                        <img src="src/assets/img/card9-avatar.png" alt="" />
+                        <img src="img/card9-avatar.png" alt="" />
                         <p>
                             <span className="name-card-profile">Jenna Ortega</span>
                             <span className="caption-card-profile">
@@ -421,7 +421,7 @@ export default function Dashboard(){
                 <div className="footer-wrapper">
                 <div className="top-footer">
                     <div className="footer-title">
-                    <img src="src/assets/img/logo.png" alt="" />
+                    <img src="img/logo.png" alt="" />
                     <p>Gali Potensi Anda Melalui Pembelajaran Video di hariesok.id!</p>
                     <p>Jl. Usman Effendi No. 50 Lowokwaru, Malang</p>
                     <p>+62-877-7123-1234</p>

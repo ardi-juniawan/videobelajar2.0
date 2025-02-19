@@ -24,7 +24,7 @@ export default function Register(){
                         <div className="no-hp">
                         <div className="region">
                             <label htmlFor="flag" className="flag">
-                            <img src="/src/assets/img/indonesia.png" alt="Indonesia" />
+                            <img src="img/indonesia.png" alt="Indonesia" />
                             </label>
                             <select name="kode" id="kode">
                             <option value={+62}>+62</option>
