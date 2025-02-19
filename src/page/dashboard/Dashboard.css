@@ -55,7 +55,7 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background: url("img/hero.jpg") no-repeat;
+    background: url("/img/hero.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 400px;
@@ -259,7 +259,7 @@
     align-items: center;
     flex-direction: column;
     text-align: center;
-    background: url("img/banner-cta.jpg") no-repeat;
+    background: url("/img/banner-cta.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 400px;
