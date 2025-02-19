@@ -18,9 +18,9 @@ createRoot(document.getElementById('root')).render(
   <Header/>
     <Routes>
       <Route index element={<Login />} />
-      <Route path="login" element={<Login />} />
-      <Route path="register" element={<Register />} />
-      <Route path='beranda' element={<Dashboard/>} />
+      <Route path="/login" element={<Login />} />
+      <Route path="/register" element={<Register />} />
+      <Route path='/beranda' element={<Dashboard/>} />
     </Routes>
   </BrowserRouter>
 )
