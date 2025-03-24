@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 import './Login.css'
 export default function Login(){
     return(
@@ -18,7 +20,9 @@ export default function Login(){
                             <a href="#">Lupa password?</a>
                             <button type="submit" className="masuk-button">Masuk</button>
                         </form>
-                        <button type="button" className="daftar-button">Daftar</button>
+                        <Link to="/register">
+                            <button type="button" className="daftar-button">Daftar</button>
+                        </Link>
                         <div className="divider">
                             <span>atau</span>
                         </div>

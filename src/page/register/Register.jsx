@@ -1,3 +1,5 @@
+import { Link } from "react-router";
+
 import './Register.css'
 export default function Register(){
     return(
@@ -47,9 +49,11 @@ export default function Register(){
                         Daftar
                         </button>
                     </form>
-                    <button type="button" className="daftar-button">
-                        Masuk
-                    </button>
+                    <Link to="/login">
+                        <button type="button" className="daftar-button">
+                            Masuk
+                        </button>
+                    </Link>
                     <div className="divider">
                         <span>atau</span>
                     </div>
