@@ -1,4 +1,4 @@
-import { Link } from "react-router";
+import { Link, useNavigate } from "react-router";
 
 import './Register.css'
 import { useState } from "react";
@@ -9,6 +9,7 @@ export default function Register(){
     const [noHp, setNoHp] = useState('');
     const [kataSandi, setKataSandi] = useState('');
     const [konfirmKataSandi, setKonfirmKataSandi] = useState('');
+    const navigate = useNavigate();
 
     const API_URL = 'http://localhost:8000/user';
 
@@ -25,6 +26,9 @@ export default function Register(){
             setEmail('')
             setNoHp('')
             setKataSandi('')
+            setKonfirmKataSandi('');
+            alert('Pendagftaran akun berhasil, silahkan login!');
+            navigate('/login');
         }
     }
 
