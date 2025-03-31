@@ -2,8 +2,9 @@ import Login from './page/login/Login';
 import Register from './page/register/Register';
 import Header from './page/header/Header.jsx';
 import Dashboard from './page/dashboard/Dashboard.jsx';
+import NotFound from './page/notfound/NotFound.Jsx';
 import DynamicTitle from './DinamycTitle.jsx';
-import { BrowserRouter, Routes, Route } from 'react-router'
+import { BrowserRouter, Routes, Route } from 'react-router';
 
 function App(){
     return(
@@ -15,6 +16,9 @@ function App(){
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
             <Route path='/beranda' element={<Dashboard/>} />
+
+            <Route path='*' element={<NotFound />} />
+            <Route path='/notfound' element={<NotFound />} />
         </Routes>
     </BrowserRouter>
     )
