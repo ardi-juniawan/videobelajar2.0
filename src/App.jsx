@@ -2,7 +2,7 @@ import Login from './page/login/Login';
 import Register from './page/register/Register';
 import Header from './page/header/Header.jsx';
 import Dashboard from './page/dashboard/Dashboard.jsx';
-import NotFound from './page/notfound/NotFound.Jsx';
+import NotFound from './page/notfound/NotFound.jsx';
 import DynamicTitle from './DinamycTitle.jsx';
 import { BrowserRouter, Routes, Route } from 'react-router';
 
