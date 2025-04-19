@@ -1,36 +1,20 @@
 import { Link, useNavigate } from "react-router";
-
+import { addUser } from "../../services/api/userService";
 import './Register.css'
 import { useState } from "react";
-import axios from "axios";
 export default function Register(){
-    const [namaLengkap, setNamaLengkap] = useState('');
-    const [email, setEmail] = useState('');
-    const [noHp, setNoHp] = useState('');
-    const [kataSandi, setKataSandi] = useState('');
-    const [konfirmKataSandi, setKonfirmKataSandi] = useState('');
+    const [formData, setFormData] = useState({namaLengkap: '', email: '', noHp: '', kataSandi: '', konfirmKataSandi: ''});
     const navigate = useNavigate();
 
-    const API_URL = 'http://localhost:8000/user';
+    const handleChange = (e) => {
+        setFormData({...formData, [e.target.name]: e.target.value});
+      };
 
-    //tambah data
-    async function addData(e){
-        e.preventDefault()
-        if(!namaLengkap || !email || !noHp || !kataSandi){
-            alert('Lengkapi data terlebih dahulu');
-        }else if(kataSandi !== konfirmKataSandi){
-            alert('Kata sandi tidak sama');
-        }else{
-            await axios.post(API_URL, {namaLengkap, email, noHp, kataSandi});
-            setNamaLengkap('')
-            setEmail('')
-            setNoHp('')
-            setKataSandi('')
-            setKonfirmKataSandi('');
-            alert('Pendagftaran akun berhasil, silahkan login!');
-            navigate('/login');
-        }
-    }
+      const handleSubmit = async (e) => {
+        e.preventDefault();
+        await addUser(formData);
+        navigate('/login');
+      };
 
     return(
         <>
@@ -41,15 +25,15 @@ export default function Register(){
                     <p>Yuk, daftarkan akunmu sekarang juga!</p>
                     </div>
                     <div className="form-login">
-                    <form type="submit" onSubmit={addData}>
+                    <form type="submit" onSubmit={handleSubmit}>
                         <label htmlFor="label-namalengkap">
                         Nama Lengkap <span className="red-label">*</span>
                         </label>
-                        <input type="text" id="namalengkap" name="namalengkap" value={namaLengkap} onChange={(e) => setNamaLengkap(e.target.value)} />
+                        <input type="text" id="namalengkap" name="namalengkap" onChange={handleChange} />
                         <label htmlFor="label-email">
                         E-mail <span className="red-label">*</span>
                         </label>
-                        <input type="email" id="email" name="email" value={email} onChange={(e) => setEmail(e.target.value)} />
+                        <input type="email" id="email" name="email" onChange={handleChange} />
                         <label htmlFor="label-nohp">
                         Nomor HP <span className="red-label">*</span>
                         </label>
@@ -63,17 +47,17 @@ export default function Register(){
                             </select>
                         </div>
                         <div className="number">
-                            <input type="number" id="nohp" name="nohp" value={noHp} onChange={(e) => setNoHp(e.target.value)} />
+                            <input type="number" id="nohp" name="nohp" onChange={handleChange} />
                         </div>
                         </div>
                         <label htmlFor="label-katasandi">
                         Kata Sandi <span className="red-label">*</span>
                         </label>
-                        <input type="password" id="password" name="password" value={kataSandi} onChange={(e) => setKataSandi(e.target.value)} />
+                        <input type="password" id="kataSandi" name="kataSandi" onChange={handleChange} />
                         <label htmlFor="label-konfirmasi-katasandi">
                         Konfirmasi Kata Sandi <span className="red-label">*</span>
                         </label>
-                        <input type="password" id="confirmpassword" name="confirmpassword" value={konfirmKataSandi} onChange={(e) => setKonfirmKataSandi(e.target.value)} />
+                        <input type="password" id="konfirmKataSandi" name="konfirmKataSandi" onChange={handleChange} />
                         <a href="#">Lupa password?</a>
                         <button type="submit" className="masuk-button">
                         Daftar

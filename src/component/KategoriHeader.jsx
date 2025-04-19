@@ -8,13 +8,16 @@ export default function KategoriHeader(){
                     <div className="dropdown-content">
                     <ul>
                         <li>
-                        <a href="#">Beranda</a>
+                        <a href="#">Profil Saya</a>
                         </li>
                         <li>
-                        <a href="#">Beranda</a>
+                        <a href="#">Kelas Saya</a>
                         </li>
                         <li>
-                        <a href="#">Test</a>
+                        <a href="#">Pesanan Saya</a>
+                        </li>
+                        <li>
+                        <a href="#">Keluar</a>
                         </li>
                     </ul>
                     </div>
