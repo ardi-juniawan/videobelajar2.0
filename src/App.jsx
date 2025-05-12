@@ -23,7 +23,8 @@ function App(){
             <Route path='/profil' element={<Profil />} />
 
             <Route path='*' element={<NotFound />} />
-            <Route path='/notfound' element={<ListView />} />
+            <Route path='/notfound' element={<NotFound />} />
+            <Route path='/listview' element={<ListView />} />
         </Routes>
         <Footer/>
     </BrowserRouter>
