@@ -1,0 +1,120 @@
+.content-profil{
+    background-color: #FFFDF3;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 80px 100px;
+}
+.list-menu-content-profil{
+    width: 250px;
+    margin-top: 20px;
+    margin-right: 30px;
+    border: 1px solid #3A35411F;
+    border-radius:10px;
+    background-color: white;
+}
+.list-menu-content-profil ul{
+    padding: 0 30px;
+}
+.list-menu-content-profil ul li{
+    padding: 10px;
+    margin: 10px 0;
+    list-style-type: none;
+    font-size: 18px;
+    color: #3A354161;
+}
+.list-menu-content-profil ul li:hover{
+    cursor: pointer;
+    background-color: #FFF7D7CC;
+    border: 1px solid#FFBD3A;
+    border-radius: 5px;
+    color: #FFBD3A;
+}
+.profil{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+.profile-desc h3, p{
+    margin: 8px;
+}
+.profile-desc a{
+    color: #F64920;
+    cursor: pointer;
+}
+
+.divider-profil{
+    margin-bottom: 20px;
+}
+
+.edit-profil{
+    width: 100%;
+    background-color: white;
+    padding: 24px;
+    border: 1px solid #3A35411F;
+    border-radius:10px;
+}
+
+.form-wrapper-profil{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form-group-profil{
+    position: relative;
+    margin-bottom: 16px;
+}
+.form-group-profil label{
+    position: absolute;
+    top: -8px;
+    left: 12px;
+    background-color: #fffdf4; 
+    padding: 0 4px;
+    font-size: 12px;
+    color: #333333AD;
+    pointer-events: none; 
+}
+.form-group-profil input{
+    width: 80%;
+    padding: 13px 12px 8px;
+    font-size: 14px;
+    border: 2px solid #3A35411F;
+    border-radius: 8px;
+    outline: none;
+}
+.form-group-profil input:focus{
+    border: 2px solid #3ECF4C;
+    transition: 0.2s ease all;
+}
+.form-group-profil input:focus + label{
+    color: #3ECF4C;
+}
+.country-code-profil{
+  appearance: none; /* Hilangkan default arrow */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg width='12' height='8' viewBox='0 0 12 8' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1 1L6 6L11 1' stroke='%23666' stroke-width='2'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+  background-size: 12px;
+  border: 2px solid #3A35411F;
+  border-radius: 8px;
+  padding: 10px 40px 10px 16px;
+  font-size: 16px;
+  color: #333333AD;
+  cursor: pointer;
+  width: 100px;
+}
+.btn-wrapper-profil{
+    display: flex;
+    justify-content: flex-end;
+}
+.btn-simpan-profil{
+  background-color: #3ECF4C;
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  font-size: 14px;
+  border-radius: 12px;
+  cursor: pointer;
+}

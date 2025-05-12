@@ -324,69 +324,6 @@
     cursor: pointer;
 }
 
-/*------- Footer ------- */
-.footer{
-    display: flex;
-    border-top: 1px solid rgb(226, 226, 226);
-    margin: 0 10px;
-}
-.footer-wrapper{
-    display: flex;
-    flex-direction: column;
-    margin: 50px auto 10px auto;
-}
-.top-footer{
-    display: flex;
-    flex-direction: row;
-}
-.footer-title{
-    width: 30%;
-}
-.footer-title p:first-of-type{
-    font-weight: bold;
-    color: #222325;
-}
-.footer-title p:nth-of-type(2),
-.footer-title p:nth-of-type(3){
-    color: #222325;
-    font-weight: normal;
-}
-.list-footer{
-    display: flex;
-    flex-direction: row;
-    margin-left: auto;
-}
-.list ul li{
-    text-decoration: none;
-    list-style-type: none;
-    font-weight: normal;
-    margin-bottom: 15px;
-    font-size: 16px;
-    color: #222325;
-}
-.list ul li:first-of-type{
-    font-weight: bold;
-}
-.footer-sosmed{
-    display: flex;
-    margin-top: 50px;
-    margin-bottom: 10px;
-}
-.copyright{
-    color: #333333AD;
-    font-weight: normal;
-    font-size: 16px;
-}
-.sosmed{
-    margin-left: auto;
-}
-.sosmed a{
-    border: 1px solid rgb(226, 226, 226);
-    border-radius: 10px;
-    padding: 10px;
-    color: black;
-}
-
 /* Responsive */
 @media only screen and (max-width: 854px) {
     .hero{
